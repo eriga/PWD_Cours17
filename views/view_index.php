@@ -16,6 +16,8 @@
         </p>
 
     <?php } ?>
-
+    <div>
+        <a href="ajout.php">Ajouter un film</a>
+    </div>
 </body>
 </html>

@@ -18,3 +18,18 @@ function getFilms(){
 
     return $resultats;
 }
+
+/**
+ * Insère un film
+ */
+function ajoutFilm($titre, $date){
+    global $bdd;
+
+    $sql = "INSERT INTO films
+                (titre2, date)
+            VALUES
+                ('$titre', '$date')
+            ";
+
+    return mysqli_query($bdd, $sql);    
+}
