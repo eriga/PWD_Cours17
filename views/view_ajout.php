@@ -10,7 +10,9 @@
 <body>
     <h1>Ajouter un film</h1>
 
+    
     <?php if(isset($_GET["erreur"])) { ?>
+        <!-- Affiché seulement si le paramètre GET "erreur" existe -->
         <p class="erreur">L'ajout n'a pas fonctionné.</p>
     <?php } ?>
 
